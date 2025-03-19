@@ -1,0 +1,74 @@
+# macOS system files
+.DS_Store
+
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Build artifacts
+dist/
+build/
+*.zip
+
+# Terraform files
+.terraform/
+terraform.tfstate.backup
+
+# AWS credentials
+.aws/
+
+# Kubernetes and Docker
+*.kubeconfig
+*.kube/
+.kube/
+
+# Ignore compiled TypeScript files
+*.tsbuildinfo
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+*.iml
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+Thumbs.db
+
+# Ignore backend-generated files
+backend/node_modules/
+backend/dist/
+backend/debug.log
+
+# Ignore frontend-generated files
+frontend/node_modules/
+frontend/dist/
+frontend/debug.log
+
+# Ignore Lambda build artifacts
+lambda/node_modules/
+lambda/dist/
+
+# Ignore Google Cloud credentials
+google_credentials.json
+
+
+bin/kubectl
+application_source_code/backend/src/lambda/addToBigQuery/dynamodb_to_bigquery.zip
+application_source_code/backend/cloudmart-backend-final.zip
+application_source_code/backend/src/lambda/addToBigQuery/google_credentials.json
+
