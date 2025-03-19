@@ -1,8 +1,8 @@
 # ☁️ CloudMart - MultiCloud, DevOps & AI Platform
 
 ## Overview
-CloudMart is an AI-powered **eCommerce platform** designed to operate seamlessly across **AWS, Google Cloud, and Azure**. This project demonstrates expertise in **multi-cloud infrastructure**, **CI/CD automation**, **Kubernetes orchestration**, and **AI-powered integrations** leveraging **Amazon Bedrock, OpenAI Assistants, and Azure Text Analytics**.
-Demo Video Link: [View here](https://youtu.be/_LvKL2LE5qU)  
+- CloudMart is an AI-powered **eCommerce platform** designed to operate seamlessly across **AWS, Google Cloud, and Azure**. This project demonstrates expertise in **multi-cloud infrastructure**, **CI/CD automation**, **Kubernetes orchestration**, and **AI-powered integrations** leveraging **Amazon Bedrock, OpenAI Assistants, and Azure Text Analytics**. Additionally, **Google BigQuery Integration** for Order Tracking & Analytics
+- Demo Video Link: [View here](https://youtu.be/_LvKL2LE5qU)  
 
 ---
 
