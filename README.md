@@ -63,7 +63,7 @@ CloudMart_Project/
 ## Deployment Guide
 
 ### **Task 1. Provision AWS Infrastructure using Terraform**
-📄 [See Detailed Steps for Task 1 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Platform/task_specific_README/Task1_README.md)
+📄 [See Detailed Steps for Task 1 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Project/blob/main/task_specific_README/Task1_README.md)
 - Create IAM Role for EC2.
 - Launch EC2 Instance.
 - Navigate to the Terraform directory:
@@ -80,7 +80,7 @@ CloudMart_Project/
 ---
 
 ### **Task 2️. Build & Deploy CloudMart Application**
-📄 [See Detailed Steps for Task 2 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Platform/task_specific_README/Task2_README.md)
+📄 [See Detailed Steps for Task 2 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Project/blob/main/task_specific_README/Task2_README.md)
 - **Dockerize the backend and frontend:**
   ```bash
   docker build -t cloudmart-backend application_source_code/backend/
@@ -95,7 +95,7 @@ CloudMart_Project/
 ---
 
 ### **Task 3️. Deploy Kubernetes Cluster on AWS EKS**
-📄 [See Detailed Steps for Task 3 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Platform/task_specific_README/Task3_README.md)
+📄 [See Detailed Steps for Task 3 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Project/blob/main/task_specific_README/Task3_README.md)
 - Create an EKS cluster:
   ```bash
   eksctl create cluster --name cloudmart --region us-east-1 --nodes 1
@@ -110,7 +110,7 @@ CloudMart_Project/
 ---
 
 ### **Task 4️. Set Up CI/CD Pipeline**
-📄 [See Detailed Steps for Task 4 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Platform/task_specific_README/Task4_README.md)
+📄 [See Detailed Steps for Task 4 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Project/blob/main/task_specific_README/Task4_README.md)
 - Add `buildspec.yml` to both the **backend** and **frontend** repositories.
 - Configure AWS CodePipeline to automate deployments.
 - Push code changes to GitHub and validate the pipeline execution.
@@ -118,7 +118,7 @@ CloudMart_Project/
 ---
 
 ### **Task 5️. Integrate AI & Data Processing**
-📄 [See Detailed Steps for Task 5 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Platform/task_specific_README/Task5_README.md)
+📄 [See Detailed Steps for Task 5 Here](https://github.com/swetapati22/MultiCloud_DevOps_AI_Project/blob/main/task_specific_README/Task5_README.md)
 #### **Amazon Bedrock for AI-Driven Product Recommendations**
 - Deploy AWS Lambda function: `application_source_code/backend/src/lambda/list_products.zip`
 - Configure **Amazon Bedrock Agent** via Terraform in `terraform-project/main.tf`
